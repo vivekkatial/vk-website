@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1597715373998.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3570673938",
+    "id" : "BE2BD70A",
+    "lastKnownWriteTime" : 1597715381,
+    "last_content_update" : 1597715381807,
+    "path" : "~/Documents/vk-website/content/talk/mlflow/index.md",
+    "project_path" : "content/talk/mlflow/index.md",
+    "properties" : {
+        "cursorPosition" : "42,152",
+        "scrollLine" : "18"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "markdown"
+}

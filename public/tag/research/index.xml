@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>research | Vivek Katial</title>
+    <link>/tag/research/</link>
+      <atom:link href="/tag/research/index.xml" rel="self" type="application/rss+xml" />
+    <description>research</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>research</title>
+      <link>/tag/research/</link>
+    </image>
+    
+    <item>
+      <title>EZ-EXPERIMENTr</title>
+      <link>/project/ez-experimentr/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>/project/ez-experimentr/</guid>
+      <description>&lt;h1 id=&#34;ez-experimentr&#34;&gt;EZ-EXPERIMENTr&lt;/h1&gt;
+&lt;p&gt;&lt;em&gt;Running reproducible research experiments at scale&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;EZ-EXPERIMENTr is a toolkit under-development with the aim to help researchers run automated experiments on a cluster.&lt;/p&gt;
+&lt;p&gt;Check out the 
+&lt;a href=&#34;https://github.com/vivekkatial/ez-experimentr&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code&lt;/a&gt;!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The tool is designed to dispatch many experiments as reproducible singularity containers to run on a specified cluster.&lt;/li&gt;
+&lt;li&gt;The first iteration of this toolkit will be using the University of Melbourne IaaS (that&amp;rsquo;s where I am doing my PhD)&lt;/li&gt;
+&lt;li&gt;The DockerFile in this repo is to setup an instance of &lt;code&gt;mlflow&lt;/code&gt;. It currently doesn&amp;rsquo;t support using a database service.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;To run the mlflow container use the following commands:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;docker build -t ez-experimentr/mlflow .
+docker run -p 5000:5000 ez-experimentr/mlflow
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;To run experiments:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;# Run entry_point.sh
+bash bin/entry_point.sh
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;architecture&#34;&gt;Architecture&lt;/h2&gt;
+&lt;img src=&#34;cluster-experimentation-workflow.png&#34;/&gt;
+&lt;h2 id=&#34;who-should-use-ez-experimentr&#34;&gt;Who should use EZ-EXPERIMENTr?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Researchers trying to scale up their experiments&lt;/li&gt;
+&lt;li&gt;Data Scientists/ML Engineers who are looking to run many experiments at scale&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;developers&#34;&gt;Developers&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Vivek Katial&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

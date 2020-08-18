@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recent &amp; Upcoming Talks | Vivek Katial</title>
+    <link>/talk/</link>
+      <atom:link href="/talk/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent &amp; Upcoming Talks</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 20 Jul 2020 13:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>/talk/</link>
+    </image>
+    
+    <item>
+      <title>Instance Space Analysis on Quantum Algorithms</title>
+      <link>/talk/confirmation/</link>
+      <pubDate>Mon, 20 Jul 2020 13:00:00 +0000</pubDate>
+      <guid>/talk/confirmation/</guid>
+      <description>&lt;p&gt;Check out the slides on Github 
+&lt;a href=&#34;https://github.com/vivekkatial/vk-presentations/blob/master/2020/preconf-lloyd/preconf-presentation.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Research Platforms Services - GitHub Workshop</title>
+      <link>/talk/github/</link>
+      <pubDate>Mon, 11 Nov 2019 13:00:00 +0000</pubDate>
+      <guid>/talk/github/</guid>
+      <description>&lt;p&gt;Check out the slides on Github 
+&lt;a href=&#34;https://github.com/vivekkatial/resplat-github-workshop/blob/master/slides/github_slides.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Building an end-to-end machine learning workflow using mlflow</title>
+      <link>/talk/mlflow/</link>
+      <pubDate>Wed, 18 Sep 2019 15:00:00 +0000</pubDate>
+      <guid>/talk/mlflow/</guid>
+      <description>&lt;p&gt;Check out the slides on Github 
+&lt;a href=&#34;https://github.com/vivekkatial/vk-presentations/blob/master/2019/auckland-ml-summit/presentation/akl-ml-conf.pptx&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
