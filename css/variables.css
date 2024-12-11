@@ -3,7 +3,7 @@
     --text-color: #1a1a1a;
     --secondary-text: #333333;
     --link-color: #404040;
-    --special-link-yellow: #806600;
+    --special-link-yellow: #d3a902;
     --special-link-green: #1a5a1a;
     --switch-bg-light: #cccccc;
     --switch-bg-dark: #666666;
@@ -20,8 +20,8 @@
     --text-color: #ffffff;
     --secondary-text: #cccccc;
     --link-color: #e0e0e0;
-    --special-link-yellow: #ffd700;
-    --special-link-green: #4caf50;
+    --special-link-yellow: #f4df6a;
+    --special-link-green: #93fca4;
 }
 
 /* Media query variables */
