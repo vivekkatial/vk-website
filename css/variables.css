@@ -1,0 +1,33 @@
+:root {
+    --bg-color: #ffffff;
+    --text-color: #1a1a1a;
+    --secondary-text: #333333;
+    --link-color: #404040;
+    --special-link-yellow: #806600;
+    --special-link-green: #1a5a1a;
+    --switch-bg-light: #cccccc;
+    --switch-bg-dark: #666666;
+    --switch-handle: #ffffff;
+    --container-width: 680px;
+    --spacing-sm: 1rem;
+    --spacing-md: 1.5rem;
+    --spacing-lg: 2rem;
+    --spacing-xl: 4rem;
+}
+
+[data-theme="dark"] {
+    --bg-color: #121212;
+    --text-color: #ffffff;
+    --secondary-text: #cccccc;
+    --link-color: #e0e0e0;
+    --special-link-yellow: #ffd700;
+    --special-link-green: #4caf50;
+}
+
+/* Media query variables */
+@media (max-width: 600px) {
+    :root {
+        --spacing-lg: 1.5rem;
+        --spacing-xl: 2rem;
+    }
+}
