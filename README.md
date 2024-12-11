@@ -2,10 +2,8 @@
 
 ![Maintenance](https://img.shields.io/maintenance/yes/2024.svg?style=flat-square)
 
-## About me
-I’ve been a Data Scientist since 2016 and have worked with a few tech-startups and NFPs. I’m now working at [Multitudes](https://www.multitudes.co) as a Data Scientist, a fellow at the [Good Data Institute](https://www.gooddatainstitute.com) and also a teaching assistant for Supply Chain Analytics in the Masters of Business Analytics program at [Melbourne Business School](https://mbs.edu/home). I am also in the middle of doing a **PhD** in Quantum Computing and Optimisation. Why do I do this to myself? I have no clue 
+🎗💫 Executive Director at the [Good Data Institute](https://www.gooddatainstitute.com/) -- connecting charities to a community of socially-minded data professionals
 
-## Credits
-This website was developed by me using the `blogdown` package in R and `HUGO`.
+📊👷‍♂️ Founding team & Data Scientist at [Multitudes](https://multitudes.co/), we're on a mission to make equity the default at work. Check us out multitudes.co
 
-As such I'd like to give credits to the creators of each of the technologies used.
+I am someone who loves math, coding and travel. I pride myself on making my work reproducible and thrive for best practice. I enjoy getting my hands dirty in data and am always looking for opportunities where technology can be used for social good.

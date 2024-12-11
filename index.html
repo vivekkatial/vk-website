@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vivek Katial</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+            background-color: #0a0a0a;
+            color: #fff;
+            line-height: 1.6;
+            padding: 2rem;
+            max-width: 680px;
+            margin: 0 auto;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 4rem;
+        }
+
+        .name {
+            font-size: 1.25rem;
+            font-weight: 500;
+        }
+
+        nav a {
+            color: #888;
+            text-decoration: none;
+            margin-left: 1.5rem;
+            font-size: 0.95rem;
+            transition: color 0.2s;
+        }
+
+        nav a:hover {
+            color: #fff;
+        }
+
+        main {
+            margin-bottom: 4rem;
+        }
+
+        p {
+            color: #bbb;
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+            line-height: 1.7;
+        }
+
+        .links {
+            display: flex;
+            gap: 1.5rem;
+        }
+
+        .links a {
+            color: #666;
+            text-decoration: none;
+            font-size: 0.95rem;
+            transition: color 0.2s;
+        }
+
+        .links a:hover {
+            color: #fff;
+        }
+
+        .gdi-link {
+            color: #FFD700; /* Yellow */
+            text-decoration: none;
+        }
+
+        .multitudes-link {
+            color: #98FF98; /* Baby green */
+            text-decoration: none;
+        }
+
+        .gdi-link:hover, .multitudes-link:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 1.5rem;
+            }
+
+            header {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 1rem;
+            }
+
+            nav a {
+                margin-left: 0;
+                margin-right: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="name">Vivek Katial</div>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <body>
+        <main>
+            <p class="role">Executive Director at <a href="https://www.gooddatainstitute.com/" class="gdi-link" target="_blank">Good Data Institute</a>, connecting charities to a community of socially-minded data professionals.</p>
+            
+            <p class="role">Founding team & Data Scientist at <a href="https://multitudes.co/" class="multitudes-link" target="_blank">Multitudes</a>, working to make equity the default at work.</p>
+            
+            <p>I am someone who loves math, coding and travel. I pride myself on making my work reproducible and thrive for best practice. I enjoy getting my hands dirty in data and am always looking for opportunities where technology can be used for social good. </p>
+        </main>
+    </body>
+    <footer>
+        <div class="links">
+            <a href="https://twitter.com/vivekkatial" target="_blank">Twitter</a>
+            <a href="https://github.com/vivekkatial" target="_blank">GitHub</a>
+            <a href="https://linkedin.com/in/vivekkatial" target="_blank">LinkedIn</a>
+        </div>
+    </footer>
+</body>
+</html>
