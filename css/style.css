@@ -22,6 +22,7 @@ header {
 .name {
     font-size: 1.25rem;
     font-weight: 500;
+    text-align: center;
 }
 
 /* Navigation */
@@ -44,7 +45,8 @@ main {
 
 p {
     color: var(--secondary-text);
-    font-size: 1.1rem;
+    font-size: 0.9rem;
+    font-weight: 300;
     margin-bottom: var(--spacing-lg);
     line-height: 1.7;
 }
@@ -150,4 +152,14 @@ input:checked + .slider:before {
 main p:last-child a,
 main p .default-link {
     color: #89CFF0; /* Baby blue color */
+}
+
+.profile-image {
+    text-align: center;
+    margin: 2em 0;
+}
+
+.profile-image img {
+    width: 150px;
+    height: 150px;
 }
